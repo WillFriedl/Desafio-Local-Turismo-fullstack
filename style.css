@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 1120px;
+  margin: 88px auto;
+}
+
+h1, h4 {
+  color: #1B1B1B;
+}
+
+p {
+  font-size: 16px;
+  color: #696969;
+}
+
+h4 {
+  font-size: 16px;
+  text-transform: uppercase;+
+  font-weight: bold;
+  color: #E1624F;
+}
+
+#about h4 {
+  margin-top: 64px;
+}
+
+#tips {
+  margin-top: 64px;
+}
+
+#tips h1 {
+  font-size: 32px;
+  margin-top: 2px;
+}
+
+#tips p {
+  margin-top: 8px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#about h1 {
+  margin-top: 8px;
+  font-size: 36px;
+}
+
+#about img {
+  height: 100%;
+  margin-top: 40px;
+}
+
+#about p {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+section img {
+  height: 350px;
+  width: 1120px;
+  object-fit: cover; 
+}
+
+#about p {
+  font-style: italic;
+}
+
+#atractions h4 {
+  margin-top: 64px;
+}
+
+
+#attractions p {
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#attractions {
+  margin-top: 16px;
+}
+
+#attractions img {
+  margin-top: 48px;
+  margin-bottom: 20px;
+}
+
+#attractions ol li {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333333;
+  margin-left: 35px;
+}
+
+#attractions ul li {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0C51A7;
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+#color ul li:nth-child(1) {
+  color: #591B98;
+}
+
+#color ul li:nth-child(2) {
+  color: #E5245E;
+}
+
+#color ul li:nth-child(3) {
+  color: #E95E10;
+}
+
+#attractions ul li::marker {
+  color: #333333;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+#description {
+  text-align: center;
+}
+
+footer {
+  font-family: "Alice", serif;
+  text-align: center;
+  color: #333333;
+}
+footer img {
+  width: 20px;
+  height: 20px;
+  vertical-align: text-bottom;
+}

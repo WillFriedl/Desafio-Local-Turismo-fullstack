@@ -101,6 +101,10 @@ h6 {
   margin-top: 16px;
 }
 
+main img:nth-child(10) {
+  object-position: center -240px;
+}
+
 #attractions img {
   margin-top: 48px;
   margin-bottom: 20px;
@@ -152,6 +156,7 @@ footer {
   font-family: "Alice", serif;
   text-align: center;
   color: #333333;
+  margin-top: 65px;
 }
 footer img {
   width: 20px;
